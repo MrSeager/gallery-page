@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Container, Card, Image } from 'react-bootstrap';
+import { Container, Card, Image, Button } from 'react-bootstrap';
 import axios from 'axios';
 
 const images = require.context('./images', false, /\.(png|jpe?g|svg)$/);
@@ -13,7 +13,7 @@ const MainPage = () => {
   const [portfolios, setPortfolios] = useState([]);
 
   useEffect(() => {
-    axios.get('/data.json').then((response) => {
+    axios.get('https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/data.json').then((response) => {
       setPortfolios(response.data.portfolio);
 
     });
@@ -21,20 +21,16 @@ const MainPage = () => {
 
   return(
     <Container className='d-flex flex-wrap'>
-      {imageList.map((image, index) => (
-        <Card className='flex-item'>
-          <Card.Img fluid key={index} src={image} alt={`Image ${index}`} />
+      {portfolios.map((portfolio, index) => (
+        <Card className='flex-item m-4'>
+          <Card.Img fluid src={imageList[index]} alt={`Image ${index}`} />
           <Card.ImgOverlay>
-            <Card.Title className='text-white'>{}</Card.Title>
-            <Card.Text className='text-white'>{}</Card.Text>
+            <Card.Title className='text-white'>{portfolio.title}</Card.Title>
+            <Card.Text className='text-white'>{portfolio.discription}</Card.Text>
+            <Button src={portfolio.link}>Link</Button>
           </Card.ImgOverlay>
         </Card>
       ))}
-      <Container>
-        {portfolios.map((portfolio) => (
-            <p key={portfolio.id}>{portfolio.title}</p>
-          ))}
-      </Container>
     </Container>
   );
 };

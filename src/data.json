@@ -4,49 +4,49 @@
       "id": 1,
       "title": "Space tourism multi-page website",
       "discription": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
-      "web-site": "https://mrseager.github.io/space-tourism/"
+      "link": "https://mrseager.github.io/space-tourism/"
     },
     {
       "id": 2,
       "title": "Manage landing page",
       "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
-      "web-site": "https://mrseager.github.io/manage-landing/"
+      "link": "https://mrseager.github.io/manage-landing/"
     },
     {
       "id": 3,
       "title": "Room homepage",
       "discription": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
-      "web-site": "https://mrseager.github.io/room-homepage/"
+      "link": "https://mrseager.github.io/room-homepage/"
     },
     {
       "id": 4,
-      "title": "",
-      "discription": "",
-      "web-site": ""
+      "title": "Interactive card details form",
+      "discription": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "link": "https://mrseager.github.io/interactive-card/"
     },
     {
       "id": 5,
-      "title": "",
-      "discription": "",
-      "web-site": ""
+      "title": "Todo app",
+      "discription": "The classic todo app with a few twists! This app includes a dark/light theme toggle and drag & drop reordering for anyone wanting an extra test.",
+      "link": "https://mrseager.github.io/todo-app/"
     },
     {
       "id": 6,
-      "title": "",
-      "discription": "",
-      "web-site": ""
+      "title": "Age calculator app",
+      "discription": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "link": "https://mrseager.github.io/age-calculator-app-main/"
     },
     {
       "id": 7,
-      "title": "",
-      "discription": "",
-      "web-site": ""
+      "title": "Bookmark landing page",
+      "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+      "link": "https://mrseager.github.io/bookmark-page/"
     },
     {
       "id": 8,
-      "title": "",
-      "discription": "",
-      "web-site": ""
+      "title": "Multi-step form",
+      "discription": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "link": "https://mrseager.github.io/multistep-form/"
     }
   ]
 }

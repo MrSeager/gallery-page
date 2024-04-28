@@ -13,5 +13,5 @@ code {
 }
 
 .flex-item {
-  flex: 0 1 calc(20% - 8px); /* Adjust for margin */
+  flex: 0 1 calc(30% - 8px); /* Adjust for margin */
 }
