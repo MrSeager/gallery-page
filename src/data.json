@@ -1,0 +1,52 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Space tourism multi-page website",
+      "discription": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+      "web-site": "https://mrseager.github.io/space-tourism/"
+    },
+    {
+      "id": 2,
+      "title": "Manage landing page",
+      "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "web-site": "https://mrseager.github.io/manage-landing/"
+    },
+    {
+      "id": 3,
+      "title": "Room homepage",
+      "discription": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+      "web-site": "https://mrseager.github.io/room-homepage/"
+    },
+    {
+      "id": 4,
+      "title": "",
+      "discription": "",
+      "web-site": ""
+    },
+    {
+      "id": 5,
+      "title": "",
+      "discription": "",
+      "web-site": ""
+    },
+    {
+      "id": 6,
+      "title": "",
+      "discription": "",
+      "web-site": ""
+    },
+    {
+      "id": 7,
+      "title": "",
+      "discription": "",
+      "web-site": ""
+    },
+    {
+      "id": 8,
+      "title": "",
+      "discription": "",
+      "web-site": ""
+    }
+  ]
+}
