@@ -15,3 +15,23 @@ code {
 .flex-item {
   flex: 0 1 calc(30% - 8px); /* Adjust for margin */
 }
+
+.cs-hover{
+  transition: .1s;
+}
+
+.cs-hover:hover{
+  outline: solid 3px blue;
+}
+
+.cs-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 991px){
+  .cs-grid{
+    display: flex;
+    flex-direction: column;
+  }
+}
