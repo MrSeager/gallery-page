@@ -18,7 +18,6 @@ const MainPage = () => {
   useEffect(() => {
     axios.get('https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/data.json').then((response) => {
       setPortfolio(response.data.portfolio);
-
     });
   }, []);
 
