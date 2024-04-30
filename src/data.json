@@ -17,6 +17,12 @@
       "title": "Product preview card component",
       "discription": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
       "link": "https://mrseager.github.io/product-preview-card-component-main/"
+    },
+    {
+      "id": 4,
+      "title": "Testimonials grid section",
+      "discription": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      "link": "https://mrseager.github.io/testimonials-grid-section-main/"
     }
   ]
 }
