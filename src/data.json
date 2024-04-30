@@ -23,6 +23,42 @@
       "title": "Testimonials grid section",
       "discription": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
       "link": "https://mrseager.github.io/testimonials-grid-section-main/"
+    },
+    {
+      "id": 5,
+      "title": "News homepage",
+      "discription": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+      "link": "https://mrseager.github.io/news-homepage-main/"
+    },
+    {
+      "id": 6,
+      "title": "Intro section with dropdown navigation",
+      "discription": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "link": "https://mrseager.github.io/intro-section-with-dropdown-navigation/"
+    },
+    {
+      "id": 7,
+      "title": "Clipboard landing page",
+      "discription": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "link": "https://mrseager.github.io/clipboard-landing-page-master/"
+    },
+    {
+      "id": 8,
+      "title": "Sunnyside agency landing page",
+      "discription": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+      "link": "https://mrseager.github.io/sunnyside-agency-landing-page-main/"
+    },
+    {
+      "id": 9,
+      "title": "Loopstudios landing page",
+      "discription": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+      "link": "https://mrseager.github.io/loopstudios-landing-page-main/"
+    },
+    {
+      "id": 10,
+      "title": "Blogr landing page",
+      "discription": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+      "link": "https://mrseager.github.io/blogr-landing-page-main/"
     }
   ]
 }
