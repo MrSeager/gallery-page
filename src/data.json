@@ -59,6 +59,84 @@
       "title": "Blogr landing page",
       "discription": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
       "link": "https://mrseager.github.io/blogr-landing-page-main/"
+    },
+    {
+      "id": 11,
+      "title": "Expenses chart component",
+      "discription": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose.",
+      "link": "https://mrseager.github.io/expenses-chart-component-main/"
+    },
+    {
+      "id": 12,
+      "title": "Time tracking dashboard",
+      "discription": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "link": "https://mrseager.github.io/time-tracking-dashboard-main/"
+    },
+    {
+      "id": 13,
+      "title": "Huddle landing page with curved sections",
+      "discription": "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges.",
+      "link": "https://mrseager.github.io/huddle-landing-page-with-curved-sections-master/"
+    },
+    {
+      "id": 14,
+      "title": "Insure landing page",
+      "discription": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+      "link": "https://mrseager.github.io/insure-landing-page-master/"
+    },
+    {
+      "id": 15,
+      "title": "Easybank landing page",
+      "discription": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+      "link": "https://mrseager.github.io/easybank-landing-page-master/"
+    },
+    {
+      "id": 16,
+      "title": "Chat app CSS illustration",
+      "discription": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+      "link": "https://mrseager.github.io/chat-app-css-illustration-master/"
+    },
+    {
+      "id": 17,
+      "title": "Room homepage",
+      "discription": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+      "link": "https://mrseager.github.io/room-homepage/"
+    },
+    {
+      "id": 18,
+      "title": "Space tourism multi-page website",
+      "discription": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+      "link": "https://mrseager.github.io/space-tourism/"
+    },
+    {
+      "id": 19,
+      "title": "Interactive card details form",
+      "discription": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "link": "https://mrseager.github.io/interactive-card/"
+    },
+    {
+      "id": 20,
+      "title": "Multi-step form",
+      "discription": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "link": "https://mrseager.github.io/multistep-form/"
+    },
+    {
+      "id": 21,
+      "title": "Todo app",
+      "discription": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
+      "link": "https://mrseager.github.io/todo-app/"
+    },
+    {
+      "id": 22,
+      "title": "Manage landing page",
+      "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "link": "https://mrseager.github.io/manage-landing/"
+    },
+    {
+      "id": 23,
+      "title": "Bookmark landing page",
+      "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+      "link": "https://mrseager.github.io/bookmark-page/"
     }
   ]
 }
