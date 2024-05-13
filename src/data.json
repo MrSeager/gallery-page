@@ -137,6 +137,12 @@
       "title": "Bookmark landing page",
       "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
       "link": "https://mrseager.github.io/bookmark-page/"
+    },
+    {
+      "id": 24,
+      "title": "E-commerce product page",
+      "discription": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
+      "link": "https://mrseager.github.io/ecommerce-product/"
     }
   ]
 }
