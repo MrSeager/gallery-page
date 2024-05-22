@@ -191,6 +191,14 @@
       "discription": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
       "link": "https://mrseager.github.io/ecommerce-product/",
       "repasitory": "https://github.com/MrSeager/ecommerce-product"
+    },
+    {
+      "id": 25,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/025.jpg",
+      "title": "REST Countries API with color theme switcher",
+      "discription": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
+      "link": "https://mrseager.github.io/countries-api/",
+      "repasitory": "https://github.com/MrSeager/countries-api"
     }
   ]
 }
