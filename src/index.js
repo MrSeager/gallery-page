@@ -5,11 +5,8 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import autoAnimate from '@formkit/auto-animate';
 import { Container, Card, Nav, Button } from 'react-bootstrap';
-import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube, FaExternalLinkAlt } from 'react-icons/fa';
 import axios from 'axios';
-
-const images = require.context('./images', false, /\.(png|jpe?g|svg)$/);
-const imageList = images.keys().map(image => images(image));
 
 const MainPage = () => {
   const [portfolio, setPortfolio] = useState([]);
@@ -35,11 +32,14 @@ const MainPage = () => {
       <Container className='cs-grid' ref={parentRef}>
         {portfolio.map((portfolio, index) => (
           <Card className='m-3 bg-dark'>
-            <Card.Img fluid src={imageList[index]} alt={`Image ${index}`} />
+            <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} />
             <Card.Body className='d-flex flex-column justify-content-between'>
               <Card.Title className='text-light text-center'>{portfolio.title}</Card.Title>
               <Card.Text className='text-light'>{portfolio.discription}</Card.Text>
-              <Button variant="outline-light" className='' href={portfolio.link} target='_blank' rel="noopener noreferrer">Link</Button>
+              <Container fluid className='p-0'>
+                <Button variant="outline-light" className='w-50' href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
+                <Button variant="outline-light" className='w-50' href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
+              </Container>
             </Card.Body>
           </Card>
         ))}
