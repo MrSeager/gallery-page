@@ -96,6 +96,15 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/006.jpg",
       "title": "Intro section with dropdown navigation",
       "discription": "This challenge will test your ability to create dropdown navigation menus, a common pattern on larger sites. It will also provide some nice basic layout challenges.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop"
+      ],
       "link": "https://mrseager.github.io/intro-section-with-dropdown-navigation/",
       "repasitory": "https://github.com/MrSeager/intro-section-with-dropdown-navigation"
     },
@@ -104,6 +113,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/007.jpg",
       "title": "Clipboard landing page",
       "discription": "Put your layout skills to the test with this HTML & CSS landing page challenge. This challenge includes a design for hover states.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/clipboard-landing-page-master/",
       "repasitory": "https://github.com/MrSeager/clipboard-landing-page-master"
     },
@@ -112,6 +131,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/008.jpg",
       "title": "Sunnyside agency landing page",
       "discription": "This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/sunnyside-agency-landing-page-main/",
       "repasitory": "https://github.com/MrSeager/sunnyside-agency-landing-page-main"
     },
@@ -120,6 +150,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/009.jpg",
       "title": "Loopstudios landing page",
       "discription": "This challenge is perfect if you're looking to test your CSS Grid chops. Even without Grid, this project will be a fun one to help you practice your layout skills!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/loopstudios-landing-page-main/",
       "repasitory": "https://github.com/MrSeager/loopstudios-landing-page-main"
     },
