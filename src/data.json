@@ -59,6 +59,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/004.jpg",
       "title": "Testimonials grid section",
       "discription": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/testimonials-grid-section-main/",
       "repasitory": "https://github.com/MrSeager/testimonials-grid-section-main"
     },
@@ -67,6 +77,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/005.jpg",
       "title": "News homepage",
       "discription": "This news homepage will be an excellent opportunity to practice your CSS Grid skills. There will be lots of tricky decisions to make and plenty of learning opportunities!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/news-homepage-main/",
       "repasitory": "https://github.com/MrSeager/news-homepage-main"
     },
