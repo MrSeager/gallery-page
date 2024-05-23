@@ -336,6 +336,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/019.jpg",
       "title": "Interactive card details form",
       "discription": "This fun project will be an excellent way to practice DOM manipulation and form validation while also putting your HTML and CSS skills to the test.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/interactive-card/",
       "repasitory": "https://github.com/MrSeager/interactive-card"
     },
@@ -344,6 +354,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/020.jpg",
       "title": "Multi-step form",
       "discription": "An excellent test for your form-building and JS skills, this project will pose many challenges along the way to completion.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/multistep-form/",
       "repasitory": "https://github.com/MrSeager/multistep-form"
     },
@@ -352,6 +372,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/021.jpg",
       "title": "Todo app",
       "discription": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
+      "technology": 
+      [
+        "html",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/todo-app/",
       "repasitory": "https://github.com/MrSeager/todo-app"
     },
@@ -360,6 +391,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/022.jpg",
       "title": "Manage landing page",
       "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
+      "technology": 
+      [
+        "html",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/manage-landing/",
       "repasitory": "https://github.com/MrSeager/manage-landing"
     },
@@ -368,6 +410,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/023.jpg",
       "title": "Bookmark landing page",
       "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
+      "technology": 
+      [
+        "html",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/bookmark-page/",
       "repasitory": "https://github.com/MrSeager/bookmark-page"
     },
@@ -376,6 +429,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/024.jpg",
       "title": "E-commerce product page",
       "discription": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
+      "technology": 
+      [
+        "html",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/ecommerce-product/",
       "repasitory": "https://github.com/MrSeager/ecommerce-product"
     },
@@ -384,6 +448,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/025.jpg",
       "title": "REST Countries API with color theme switcher",
       "discription": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
+      "technology": 
+      [
+        "html",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/countries-api/",
       "repasitory": "https://github.com/MrSeager/countries-api"
     }
