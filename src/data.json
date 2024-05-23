@@ -22,6 +22,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/002.jpg",
       "title": "Age calculator app",
       "discription": "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/age-calculator-app-main/",
       "repasitory": "https://github.com/MrSeager/age-calculator-app-main"
     },

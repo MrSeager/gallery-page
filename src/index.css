@@ -29,6 +29,10 @@ code {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.cs-w{
+  width: 45% !important;
+}
+
 @media (max-width: 991px){
   .cs-grid{
     display: flex;
