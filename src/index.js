@@ -4,8 +4,9 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import autoAnimate from '@formkit/auto-animate';
-import { Container, Card, Nav, Button } from 'react-bootstrap';
-import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube, FaExternalLinkAlt } from 'react-icons/fa';
+import { Container, Card, Nav, Button, Row, Col, Badge } from 'react-bootstrap';
+import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube, FaExternalLinkAlt, FaReact } from 'react-icons/fa';
+import { PiFileHtmlDuotone, PiFileCssDuotone } from "react-icons/pi";
 import axios from 'axios';
 
 const MainPage = () => {
@@ -31,11 +32,43 @@ const MainPage = () => {
       </Nav>
       <Container className='cs-grid' ref={parentRef}>
         {portfolio.map((portfolio, index) => (
-          <Card className='m-3 bg-dark'>
+          <Card className='m-3 bg-dark text-light'>
             <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} />
             <Card.Body className='d-flex flex-column justify-content-between'>
-              <Card.Title className='text-light text-center'>{portfolio.title}</Card.Title>
-              <Card.Text className='text-light'>{portfolio.discription}</Card.Text>
+              <Card.Title className='text-center'>{portfolio.title}</Card.Title>
+              {/*<Card.Text className='text-light'>{portfolio.discription}</Card.Text>*/}
+              <Row fluid className='mt-2 mb-2 p-0'>
+                <Col className='text-center'>
+                  <p className='fw-bold text-uppercase m-0'>Technology</p>
+                  {portfolio.technology != null ? 
+                    (
+                      portfolio.technology.map((tech, index) => (
+                        <Badge className='w-25 h-50 m-1' bg="light" text="dark">
+                          {
+                            tech === "htm" ? 
+                              <PiFileHtmlDuotone className='w-100 h-100' /> :
+                            tech === "css" ? 
+                              <PiFileCssDuotone className='w-100 h-100' /> :
+                            tech === "react" ? 
+                              <FaReact className='w-100 h-100' /> :
+                            ''
+                          }
+                        </Badge> 
+                      ))
+                    ) : ''
+                  }
+                </Col>
+                <Col className='text-center'>
+                  <p className='fw-bold text-uppercase m-0'>Version</p>
+                  {portfolio.technology != null ? 
+                    (
+                      portfolio.technology.map((tech, index) => (
+                        <p key={index} className='m-0'>{tech}</p>
+                      ))
+                    ) : ''
+                  }
+                </Col>
+              </Row>
               <Container fluid className='p-0'>
                 <Button variant="outline-light" className='w-50' href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
                 <Button variant="outline-light" className='w-50' href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
