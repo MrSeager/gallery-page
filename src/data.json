@@ -4,6 +4,15 @@
       "id": 1,
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/001.jpg",
       "title": "QR code component",
+      "technology": 
+      [
+        "HTML",
+        "CSS"
+      ],
+      "version": 
+      [
+        "desktop"
+      ],
       "discription": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
       "link": "https://mrseager.github.io/qr-code-component/",
       "repasitory": "https://github.com/MrSeager/qr-code-component"
