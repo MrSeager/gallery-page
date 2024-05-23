@@ -41,6 +41,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/003.jpg",
       "title": "Product preview card component",
       "discription": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/product-preview-card-component-main/",
       "repasitory": "https://github.com/MrSeager/product-preview-card-component-main"
     },
