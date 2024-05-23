@@ -374,7 +374,7 @@
       "discription": "The classic todo app with a few twists! This app includes a dark/light theme toggle.",
       "technology": 
       [
-        "html",
+        "react",
         "bootstrap",
         "css"
       ],
@@ -393,7 +393,7 @@
       "discription": "This challenge will be a great test for your responsive skills. There are lots of small details and slight content shifts for different screen sizes.",
       "technology": 
       [
-        "html",
+        "react",
         "bootstrap",
         "css"
       ],
@@ -412,7 +412,7 @@
       "discription": "This challenge will really test your layout skills. There are also areas that will require some JavaScript, such as the tabbed features section and the FAQ accordion.",
       "technology": 
       [
-        "html",
+        "react",
         "bootstrap",
         "css"
       ],
@@ -431,7 +431,7 @@
       "discription": "In this challenge, you'll build a beautiful product page. We'll be putting your JS skills to the test with a lightbox product gallery and cart functionality!",
       "technology": 
       [
-        "html",
+        "react",
         "bootstrap",
         "css"
       ],
@@ -450,7 +450,7 @@
       "discription": "If you're wanting to test your JavaScript skills this is the challenge for you. Use whichever JS framework you prefer and pull data from the REST Countries API.",
       "technology": 
       [
-        "html",
+        "react",
         "bootstrap",
         "css"
       ],
