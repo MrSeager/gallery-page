@@ -169,6 +169,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/010.jpg",
       "title": "Blogr landing page",
       "discription": "Flex your layout muscles with this landing page challenge. You'll mostly be working with HTML & CSS for this project with a tiny bit of JS for the mobile menu.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/blogr-landing-page-main/",
       "repasitory": "https://github.com/MrSeager/blogr-landing-page-main"
     },
@@ -177,6 +188,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/011.jpg",
       "title": "Expenses chart component",
       "discription": "In this challenge, you'll create a bar chart component from scratch. We provide a local JSON file, so you can add the chart data dynamically if you choose.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/expenses-chart-component-main/",
       "repasitory": "https://github.com/MrSeager/expenses-chart-component-main"
     },
@@ -185,6 +207,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/012.jpg",
       "title": "Time tracking dashboard",
       "discription": "A perfect opportunity to practice your CSS Grid skills. For anyone wanting to take it up a notch, we provide a JSON data file to practice working with data.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/time-tracking-dashboard-main/",
       "repasitory": "https://github.com/MrSeager/time-tracking-dashboard-main"
     },
@@ -193,6 +226,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/013.jpg",
       "title": "Huddle landing page with curved sections",
       "discription": "Practice using pseudo-elements for styling extras and the CSS position property for the sections with curved edges.",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/huddle-landing-page-with-curved-sections-master/",
       "repasitory": "https://github.com/MrSeager/huddle-landing-page-with-curved-sections-master"
     },
@@ -201,6 +244,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/014.jpg",
       "title": "Insure landing page",
       "discription": "Test your layout skills with this HTML & CSS only landing page. This challenge is perfect if you're starting to get confident in laying out web pages.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/insure-landing-page-master/",
       "repasitory": "https://github.com/MrSeager/insure-landing-page-master"
     },
@@ -209,6 +263,17 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/015.jpg",
       "title": "Easybank landing page",
       "discription": "This challenge will provide a nice test for your layout skills. If you're ready to move up from Junior challenges, this one is a great next step.",
+      "technology": 
+      [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/easybank-landing-page-master/",
       "repasitory": "https://github.com/MrSeager/easybank-landing-page-master"
     },
@@ -217,6 +282,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/016.jpg",
       "title": "Chat app CSS illustration",
       "discription": "In this challenge, you'll be building out the entire app illustration from scratch. This will seriously test your CSS skills. So give it a go if you feel confident!",
+      "technology": 
+      [
+        "html",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/chat-app-css-illustration-master/",
       "repasitory": "https://github.com/MrSeager/chat-app-css-illustration-master"
     },
@@ -225,6 +300,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/017.jpg",
       "title": "Room homepage",
       "discription": "This small homepage challenge packs a big punch to test your layout skills. There's also a slider in there to add a JS layer for extra practice.",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/room-homepage/",
       "repasitory": "https://github.com/MrSeager/room-homepage"
     },
@@ -233,6 +318,16 @@
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/018.jpg",
       "title": "Space tourism multi-page website",
       "discription": "This project is a fun collaboration with Scrimba and Kevin Powell! If you like, you can follow along and watch Kevin complete the project on Scrimba. Lots to learn!",
+      "technology": 
+      [
+        "react",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
       "link": "https://mrseager.github.io/space-tourism/",
       "repasitory": "https://github.com/MrSeager/space-tourism"
     },
