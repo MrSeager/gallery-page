@@ -27,24 +27,23 @@ const MainPage = () => {
   }, [parentRef]);
 
   return(
-    <main className='bg-light'>
-      <Nav className='bg-dark mb-5 text-light'>
-        <h1 className='display-2 text-center m-5 w-100'>Mr. Seager's Portfolio</h1>
+    <main className='bg-white'>
+      <Nav className='cs-bg-el shadow-sm mb-5 text-light'>
+        <h1 className='display-2 text-center m-5 w-100 pe-none'>Mr. Seager's Portfolio</h1>
       </Nav>
       <Container className='cs-grid' ref={parentRef}>
         {portfolio.map((portfolio, index) => (
-          <Card className='m-3 bg-dark text-light'>
+          <Card className='m-3 cs-bg-el text-light shadow-sm'>
             <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} />
             <Card.Body className='d-flex flex-column justify-content-between'>
-              <Card.Title className='text-center'>{portfolio.title}</Card.Title>
-              {/*<Card.Text className='text-light'>{portfolio.discription}</Card.Text>*/}
+              <Card.Title className='text-center pe-none'>{portfolio.title}</Card.Title>
               <Row fluid className='mt-2 mb-3 p-0'>
                 <Col className='text-center'>
-                  <p className='fw-bold text-uppercase m-0'>Technology</p>
+                  <p className='fw-bold text-uppercase m-0 pe-none'>Technology</p>
                   {portfolio.technology != null ? 
                     (
                       portfolio.technology.map((tech, index) => (
-                        <Badge className='w-25 h-50 m-1' bg="light" text="dark">
+                        <Badge className='w-25 h-50 m-1 cs-tc-1' bg="light">
                           {
                             tech === "html" ? 
                               <PiFileHtmlDuotone className='w-100 h-100' /> :
@@ -64,11 +63,11 @@ const MainPage = () => {
                   }
                 </Col>
                 <Col className='text-center'>
-                  <p className='fw-bold text-uppercase m-0'>Version</p>
+                  <p className='fw-bold text-uppercase m-0 pe-none'>Version</p>
                   {portfolio.technology != null ? 
                     (
                       portfolio.version.map((ver, index) => (
-                        <Badge className='w-25 h-50 m-1' bg="light" text="dark">
+                        <Badge className='w-25 h-50 m-1 cs-tc-1' bg="light">
                           {
                             ver === "desktop" ? 
                               <PiDesktopTower className='w-100 h-100' /> :
@@ -83,24 +82,24 @@ const MainPage = () => {
                 </Col>
               </Row>
               <Row fluid className='ps-3 pe-3 justify-content-between'>
-                <Button variant="outline-light" className='cs-w' href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
-                <Button variant="outline-light" className='cs-w' href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
+                <Button variant="custom" className='cs-w cs-btn' href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
+                <Button variant="custom" className='cs-w cs-btn' href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
               </Row>
             </Card.Body>
           </Card>
         ))}
       </Container>
-      <Container fluid className='mt-5 bg-dark p-4 d-flex flex-column flex-sm-row justify-content-end'>
-        <Button variant="outline-light" className="m-2" href='https://www.linkedin.com/in/sergiy-but-623426159/' target='_blank'>
+      <Container fluid className='mt-5 cs-bg-el shadow-sm p-4 d-flex flex-column flex-sm-row justify-content-end'>
+        <Button variant="custom" className="m-2 cs-btn" href='https://www.linkedin.com/in/sergiy-but-623426159/' target='_blank'>
           <FaLinkedin size="1.5em" /> Linkedin
         </Button>
-        <Button variant="outline-light" className="m-2" href='https://github.com/MrSeager' target='_blank'>
+        <Button variant="custom" className="m-2 cs-btn" href='https://github.com/MrSeager' target='_blank'>
           <FaGithub size="1.5em" /> Github
         </Button>
-        <Button variant="outline-light" className="m-2" href='https://www.deviantart.com/mrseager29' target='_blank'>
+        <Button variant="custom" className="m-2 cs-btn" href='https://www.deviantart.com/mrseager29' target='_blank'>
           <FaDeviantart size="1.5em" /> Deviantart
         </Button>
-        <Button variant="outline-light" className="m-2" href='https://www.youtube.com/channel/UCQgY4AFsqQWgxOvdeNGs-cQ' target='_blank'>
+        <Button variant="custom" className="m-2 cs-btn" href='https://www.youtube.com/channel/UCQgY4AFsqQWgxOvdeNGs-cQ' target='_blank'>
           <FaYoutube size="1.5em" /> YouTube
         </Button>
       </Container>

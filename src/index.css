@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+body::-webkit-scrollbar{
+  background-color: white;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #00ada9;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -31,6 +39,25 @@ code {
 
 .cs-w{
   width: 45% !important;
+}
+
+.cs-bg-el{
+  background-color: #00ada9 !important;
+}
+
+.cs-tc-1{
+  color: #00ada9 !important;
+}
+
+.cs-btn{
+  border: solid 1px #ffffff !important;
+  background-color: transparent !important;
+  color: #ffffff !important;
+}
+
+.cs-btn:hover{
+  background-color: #ffffff !important;
+  color: #00ada9 !important;
 }
 
 @media (max-width: 991px){
