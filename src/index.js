@@ -53,8 +53,8 @@ const MainPage = () => {
 
       <Container className='cs-grid mt-3' ref={parentRef}>
         {portfolio.map((portfolio, index) => (
-          <Card className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm`}>
-            <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} />
+          <Card className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
+            <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
             <Card.Body className='d-flex flex-column justify-content-between'>
               <Card.Title className='text-center pe-none'>{portfolio.title}</Card.Title>
               <Row fluid className='mt-2 mb-3 p-0'>

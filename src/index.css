@@ -107,6 +107,15 @@ code {
   height: 30px !important;
 }
 
+.cs-img-filter{
+  filter: opacity(50%);
+  transition: .5s;
+}
+
+.cs-card:hover .cs-img-filter{
+  filter: none;
+}
+
 @media (max-width: 991px){
   .cs-grid{
     display: flex;
