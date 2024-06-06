@@ -108,7 +108,7 @@ code {
 }
 
 .cs-img-filter{
-  filter: opacity(50%);
+  filter: opacity(80%);
   transition: .5s;
 }
 
