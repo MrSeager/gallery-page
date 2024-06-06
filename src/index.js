@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
 import autoAnimate from '@formkit/auto-animate';
-import { Container, Card, Nav, Button, Row, Col, Badge, ButtonGroup, DropdownButton, Dropdown } from 'react-bootstrap';
+import { Container, Card, Nav, Button, Row, Col, Badge, ButtonGroup, Form } from 'react-bootstrap';
 import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube, FaExternalLinkAlt, FaReact, FaBootstrap, FaGripLines } from 'react-icons/fa';
 import { PiFileHtmlDuotone, PiFileCssDuotone, PiDesktopTower, PiDeviceMobileThin } from "react-icons/pi";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -16,6 +16,7 @@ const MainPage = () => {
   const [portfolio, setPortfolio] = useState([]);
   const [currTheme, setCurrTheme] = useState(1);
   const [showBtnGroup, setShowBtnGroup] = useState(false);
+  const [selectedTechnology, setSelectedTechnology] = useState('');
   const parentRef = useRef(null);
 
   const [animationParent] = useAutoAnimate();
@@ -50,9 +51,19 @@ const MainPage = () => {
           <Button onClick={() => setCurrTheme(4)} className='cs-bg-el-4 border-0 cs-btngroup'></Button>
         </ButtonGroup>
         )}
-
-      <Container className='cs-grid mt-3' ref={parentRef}>
-        {portfolio.map((portfolio, index) => (
+      <Form.Select onChange={(e) => setSelectedTechnology(e.target.value)} value={selectedTechnology} 
+                   className={`cs-select border-0 cs-w-2 my-4 mx-auto mx-lg-5 ms-lg-auto cs-bg-el-${currTheme} text-white text-center px-0`}>
+        <option value=''>Technology</option>
+        <option value='html'>HTML</option>
+        <option value='css'>CSS</option>
+        <option value='javascript'>JavaScript</option>
+        <option value='react'>React</option>
+        <option value='bootstrap'>Bootstrap</option>
+      </Form.Select>
+      <Container className='cs-grid mt-3' ref={animationParent}>
+        {portfolio
+          .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
+          .map((portfolio, index) => (
           <Card className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
             <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
             <Card.Body className='d-flex flex-column justify-content-between'>

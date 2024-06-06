@@ -33,6 +33,10 @@ code {
   width: 45% !important;
 }
 
+.cs-w-2{
+  width: 15% !important;
+}
+
 .cs-bg-el-1{
   background-color: #00ada9 !important;
   transition: .5s;
@@ -116,9 +120,17 @@ code {
   filter: none;
 }
 
+.cs-select{
+  background-image: none !important;
+}
+
 @media (max-width: 991px){
   .cs-grid{
     display: flex;
     flex-direction: column;
+  }
+
+  .cs-w-2{
+    width: 80% !important;
   }
 }
