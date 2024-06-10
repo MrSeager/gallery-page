@@ -10,7 +10,9 @@ import { PiFileHtmlDuotone, PiFileCssDuotone, PiDesktopTower, PiDeviceMobileThin
 import { RiJavascriptFill } from "react-icons/ri";
 import axios from 'axios';
 
-import { useAutoAnimate } from '@formkit/auto-animate/react'
+import { useAutoAnimate } from '@formkit/auto-animate/react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const MainPage = () => {
   const [portfolio, setPortfolio] = useState([]);
@@ -36,6 +38,8 @@ const MainPage = () => {
   const handleBtnGroup = () => {
     setShowBtnGroup(!showBtnGroup);
   };
+
+  AOS.init();
 
   return(
     <main className='bg-white' ref={animationParent}>
@@ -64,7 +68,7 @@ const MainPage = () => {
         {portfolio
           .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
           .map((portfolio, index) => (
-          <Card className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
+          <Card data-aos='fade-up' className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
             <Card.Img fluid src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
             <Card.Body className='d-flex flex-column justify-content-between'>
               <Card.Title className='text-center pe-none'>{portfolio.title}</Card.Title>
