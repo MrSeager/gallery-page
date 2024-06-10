@@ -116,7 +116,12 @@ code {
   transition: .5s;
 }
 
+.cs-card{
+  overflow: hidden;
+}
+
 .cs-card:hover .cs-img-filter{
+  transform: scale(1.05);
   filter: none;
 }
 
