@@ -16,7 +16,7 @@ import 'aos/dist/aos.css';
 
 const MainPage = () => {
   const [portfolio, setPortfolio] = useState([]);
-  const [currTheme, setCurrTheme] = useState(localStorage.getItem('currTheme') !== 0 && 1);
+  const [currTheme, setCurrTheme] = useState(localStorage.getItem('currTheme') === null && 1);
   const [showBtnGroup, setShowBtnGroup] = useState(false);
   const [selectedTechnology, setSelectedTechnology] = useState('');
   const [parent, enableAnimations] = useAutoAnimate();
