@@ -497,6 +497,24 @@
       ],
       "link": "https://mrseager.github.io/project-tracking/",
       "repasitory": "https://github.com/MrSeager/project-tracking"
+    },
+    {
+      "id": 28,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/028.jpg",
+      "title": "Rock, Paper, Scissors game",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/r-p-s-master/",
+      "repasitory": "https://github.com/MrSeager/r-p-s-master"
     }
   ]
 }
