@@ -515,6 +515,24 @@
       ],
       "link": "https://mrseager.github.io/r-p-s-master/",
       "repasitory": "https://github.com/MrSeager/r-p-s-master"
+    },
+    {
+      "id": 29,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/029.jpg",
+      "title": "Blog preview card",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/blog-preview/",
+      "repasitory": "https://github.com/MrSeager/blog-preview"
     }
   ]
 }
