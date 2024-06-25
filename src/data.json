@@ -533,6 +533,24 @@
       ],
       "link": "https://mrseager.github.io/blog-preview/",
       "repasitory": "https://github.com/MrSeager/blog-preview"
+    },
+    {
+      "id": 30,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/030.jpg",
+      "title": "Social links profile",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://github.com/MrSeager/links-profile",
+      "repasitory": "https://mrseager.github.io/links-profile/"
     }
   ]
 }
