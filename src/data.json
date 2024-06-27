@@ -551,6 +551,24 @@
       ],
       "link": "https://mrseager.github.io/links-profile/",
       "repasitory": "https://github.com/MrSeager/links-profile"
+    },
+    {
+      "id": 31,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/031.jpg",
+      "title": "Recipe page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/recipe-page/",
+      "repasitory": "https://github.com/MrSeager/recipe-page"
     }
   ]
 }
