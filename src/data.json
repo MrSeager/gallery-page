@@ -569,6 +569,24 @@
       ],
       "link": "https://mrseager.github.io/recipe-page/",
       "repasitory": "https://github.com/MrSeager/recipe-page"
+    },
+    {
+      "id": 32,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/032.jpg",
+      "title": "Four card feature section",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/four-cards/",
+      "repasitory": "https://github.com/MrSeager/four-cards"
     }
   ]
 }
