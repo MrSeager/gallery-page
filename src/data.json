@@ -587,6 +587,24 @@
       ],
       "link": "https://mrseager.github.io/four-cards/",
       "repasitory": "https://github.com/MrSeager/four-cards"
+    },
+    {
+      "id": 33,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/033.jpg",
+      "title": "Article preview component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/article-preview/",
+      "repasitory": "https://github.com/MrSeager/article-preview"
     }
   ]
 }
