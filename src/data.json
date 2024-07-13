@@ -605,6 +605,24 @@
       ],
       "link": "https://mrseager.github.io/article-preview/",
       "repasitory": "https://github.com/MrSeager/article-preview"
+    },
+    {
+      "id": 34,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/034.jpg",
+      "title": "Article preview component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/calculator-app/",
+      "repasitory": "https://github.com/MrSeager/calculator-app"
     }
   ]
 }
