@@ -2,17 +2,21 @@ import React, { useState, useEffect, useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+//Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
-import autoAnimate from '@formkit/auto-animate';
 import { Container, Card, Nav, Button, Row, Col, Badge, ButtonGroup, Form, Dropdown } from 'react-bootstrap';
+//Icons
 import { FaLinkedin, FaGithub, FaDeviantart, FaYoutube, FaExternalLinkAlt, FaReact, FaBootstrap, FaGripLines } from 'react-icons/fa';
 import { PiFileHtmlDuotone, PiFileCssDuotone, PiDesktopTower, PiDeviceMobileThin } from "react-icons/pi";
 import { RiJavascriptFill } from "react-icons/ri";
+import { SiTypescript } from "react-icons/si";
 import axios from 'axios';
-
+//Animation
 import { useAutoAnimate } from '@formkit/auto-animate/react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+//Components
+import NavBar from './components/NavBar.tsx';
 
 const MainPage = () => {
   const [portfolio, setPortfolio] = useState([]);
@@ -32,18 +36,9 @@ const MainPage = () => {
   const handleBtnGroup = () => {
     setShowBtnGroup(!showBtnGroup);
   };
-
-  useEffect(() => {
-    // Initialize AOS when the component mounts
-    AOS.init();
-
-    // Clean up AOS after the initial animation
-    return () => {
-      AOS.refreshHard();
-    };
-  }, []);
-
-  // Set the current theme in localStorage when it changes
+  
+  AOS.init();
+  
   const handleThemeChange = (themeNumber) => {
     setCurrTheme(themeNumber);
     localStorage.setItem('currTheme', themeNumber);
@@ -59,10 +54,7 @@ const MainPage = () => {
 
   return(
     <main className='bg-white' ref={parent}>
-      <Nav data-aos={stopAnim} className={`cs-bg-el-${currTheme} shadow-sm m-0 text-white`} >
-        <h1 className='display-2 text-center m-5 w-100 pe-none'>Mr. Seager's Portfolio</h1> 
-        <Button variant='custom' onClick={handleBtnGroup} className='text-white mx-auto'><FaGripLines /></Button>
-      </Nav>
+      <NavBar currTheme={currTheme} handleBtnGroup={handleBtnGroup} stopAnim={stopAnim} />
       {showBtnGroup && (
         <ButtonGroup className='p-0 w-100 m-0 cs-h'>
           <Button onClick={() => {setCurrTheme(1); setStopAnim(''); handleThemeChange(1)}} className='cs-bg-el-1 border-0 cs-btngroup'></Button>
@@ -80,6 +72,7 @@ const MainPage = () => {
           <Dropdown.Item onClick={(e) => setSelectedTechnology('javascript')} className={`border-0 cs-btn-${currTheme}`}>JavaScript</Dropdown.Item>
           <Dropdown.Item onClick={(e) => setSelectedTechnology('react')} className={`border-0 cs-btn-${currTheme}`}>React</Dropdown.Item>
           <Dropdown.Item onClick={(e) => setSelectedTechnology('bootstrap')} className={`border-0 cs-btn-${currTheme}`}>Bootstrap</Dropdown.Item>
+          <Dropdown.Item onClick={(e) => setSelectedTechnology('typescript')} className={`border-0 cs-btn-${currTheme}`}>TypeScript</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
       <Container className='cs-grid mt-3'>
@@ -96,7 +89,7 @@ const MainPage = () => {
                   {portfolio.technology != null ? 
                     (
                       portfolio.technology.map((tech, index) => (
-                        <Badge className={`w-25 h-50 m-1 cs-tc-${currTheme}`} bg="light">
+                        <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
                           {
                             tech === "html" ? 
                               <PiFileHtmlDuotone className='w-100 h-100' /> :
@@ -108,6 +101,8 @@ const MainPage = () => {
                               <FaBootstrap className='w-100 h-100' /> :
                             tech === "javascript" ? 
                               <RiJavascriptFill className='w-100 h-100' /> :
+                            tech === "typescript" ?
+                              <SiTypescript className='w-100 h-100' /> :
                             ''
                           }
                         </Badge> 
@@ -120,7 +115,7 @@ const MainPage = () => {
                   {portfolio.technology != null ? 
                     (
                       portfolio.version.map((ver, index) => (
-                        <Badge className={`w-25 h-50 m-1 cs-tc-${currTheme}`} bg="light">
+                        <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
                           {
                             ver === "desktop" ? 
                               <PiDesktopTower className='w-100 h-100' /> :
