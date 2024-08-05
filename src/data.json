@@ -680,6 +680,25 @@
       ],
       "link": "https://mrseager.github.io/interactive-rating/",
       "repasitory": "https://github.com/MrSeager/interactive-rating"
+    },
+    {
+      "id": 38,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/038.jpg",
+      "title": "FAQ accordion",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/faq-accordion/",
+      "repasitory": "https://github.com/MrSeager/faq-accordion"
     }
   ]
 }
