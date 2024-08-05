@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import ReactDOM from 'react-dom/client';
 import './index.css';
-import reportWebVitals from './reportWebVitals';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container } from 'react-bootstrap';
@@ -15,7 +13,7 @@ import ProjectCards from './components/ProjectCards.tsx';
 import FooterComp from './components/FooterComp.tsx';
 
 const MainPage = () => {
-    const [currTheme, setCurrTheme] = useState(localStorage.getItem('currTheme') === null || 1);
+    const [currTheme, setCurrTheme] = useState(isNaN(localStorage.getItem('currTheme')) || 1);
     const [selectedTechnology, setSelectedTechnology] = useState('');
     const [stopAnim, setStopAnim] = useState('fade-down');
     
