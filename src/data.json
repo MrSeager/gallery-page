@@ -737,6 +737,25 @@
       ],
       "link": "https://mrseager.github.io/nft-preview-card/",
       "repasitory": "https://github.com/MrSeager/nft-preview-card"
+    },
+    {
+      "id": 41,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/041.jpg",
+      "title": "Huddle landing page with alternating feature blocks",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/huddle-landing-page/",
+      "repasitory": "https://github.com/MrSeager/huddle-landing-page"
     }
   ]
 }
