@@ -3,9 +3,6 @@ import '../index.css';
 //Bootstrap
 import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Card, Button, Badge, Row, Col } from 'react-bootstrap';
-//Animation
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 //Axios
 import axios from 'axios';
 //Icons
@@ -15,17 +12,18 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
 
 type ProjectCardsProps = {
-    currTheme: string;
-    selectedTechnology: string;
+  currTheme: string;
+  selectedTechnology: string;
 }
 
 interface PortfolioItemType {
-    title: string;
-    image: string;
-    technology: string[]; // Array of technology names (e.g., ["html", "css"])
-    version: string[]; // Array of version names (e.g., ["desktop", "mobile"])
-    repasitory: string; // GitHub repository URL
-    link: string; // External link (e.g., project website)
+  id: number;
+  title: string;
+  image: string;
+  technology: string[];
+  version: string[];
+  repasitory: string;
+  link: string;
 }
 
 const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) => {
@@ -67,50 +65,52 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) 
         }
     };
 
-    AOS.init();
-
     return (
-        <Container className='cs-grid mt-3'>
-        {portfolio
-          .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
-          .map((portfolio, index) => (
-          <Card data-aos='fade-up' className={`m-3 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
-            <Card.Img src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
-            <Card.Body className='d-flex flex-column justify-content-between'>
-              <Card.Title className='text-center pe-none'>{portfolio.title}</Card.Title>
-              <Row fluid className='mt-2 mb-3 p-0'>
-                <Col className='text-center'>
-                  <p className='fw-bold text-uppercase m-0 pe-none'>Technology</p>
-                  {portfolio.technology != null ? 
-                    (
-                      portfolio.technology.map((tech, index) => (
-                        <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
-                          {handleBadgeTechIcon(tech)}
-                        </Badge> 
-                      ))
-                    ) : ''
-                  }
-                </Col>
-                <Col className='text-center'>
-                  <p className='fw-bold text-uppercase m-0 pe-none'>Version</p>
-                  {portfolio.technology != null ? 
-                    (
-                      portfolio.version.map((ver, index) => (
-                        <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
-                          {handleBadgeVerIcon(ver)}
-                        </Badge> 
-                      ))
-                    ) : ''
-                  }
-                </Col>
-              </Row>
-              <Row fluid className='ps-3 pe-3 justify-content-between'>
-                <Button variant="custom" className={`cs-w cs-btn-${currTheme}`} href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
-                <Button variant="custom" className={`cs-w cs-btn-${currTheme}`} href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
-              </Row>
-            </Card.Body>
-          </Card>
-        ))}
+        <Container fluid className='mt-3'>
+          <Row>
+          {portfolio
+            .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
+            .map((portfolio, index) => (
+            <Col data-aos='fade-up' lg={4} md={6} sm={12} className='p-3'>
+              <Card className={`h-100 w-100 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
+                <Card.Img src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
+                <Card.Body className='d-flex flex-column justify-content-between'>
+                  <Card.Title className='text-center pe-none'>{portfolio.id}. {portfolio.title}</Card.Title>
+                  <Row fluid className='mt-2 mb-3 p-0'>
+                    <Col className='text-center'>
+                      <p className='fw-bold text-uppercase m-0 pe-none'>Technology</p>
+                      {portfolio.technology != null ? 
+                        (
+                          portfolio.technology.map((tech, index) => (
+                            <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
+                              {handleBadgeTechIcon(tech)}
+                            </Badge> 
+                          ))
+                        ) : ''
+                      }
+                    </Col>
+                    <Col className='text-center'>
+                      <p className='fw-bold text-uppercase m-0 pe-none'>Version</p>
+                      {portfolio.technology != null ? 
+                        (
+                          portfolio.version.map((ver, index) => (
+                            <Badge className={`cs-is m-1 cs-tc-${currTheme}`} bg="light">
+                              {handleBadgeVerIcon(ver)}
+                            </Badge> 
+                          ))
+                        ) : ''
+                      }
+                    </Col>
+                  </Row>
+                  <Row fluid className='ps-3 pe-3 justify-content-between'>
+                    <Button variant="custom" className={`cs-w cs-btn-${currTheme}`} href={portfolio.repasitory} target='_blank' rel="noopener noreferrer"><FaGithub className='mb-1' /></Button>
+                    <Button variant="custom" className={`cs-w cs-btn-${currTheme}`} href={portfolio.link} target='_blank' rel="noopener noreferrer"><FaExternalLinkAlt className='mb-1' /></Button>
+                  </Row>
+                </Card.Body>
+              </Card>
+            </Col>
+          ))}
+        </Row>
       </Container>
     );
 }
