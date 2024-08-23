@@ -61,18 +61,18 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) 
             case "mobile":
                 return <PiDeviceMobileThin className='w-100 h-100' />;
             default:
-                return null; // Handle other cases or return a default icon
+                return null;
         }
     };
 
     return (
-        <Container fluid className='mt-3'>
-          <Row>
+        <Container fluid className='px-lg-5'>
+          <Row className='mx-lg-5'>
           {portfolio
             .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
             .map((portfolio, index) => (
             <Col data-aos='fade-up' lg={4} md={6} sm={12} className='p-3'>
-              <Card className={`h-100 w-100 cs-bg-el-${currTheme} text-white shadow-sm cs-card`}>
+              <Card className={`h-100 w-100 cs-bg-el-${currTheme} text-white shadow rounded-2 cs-card`}>
                 <Card.Img src={portfolio.image} alt={`Image ${index}`} className='cs-img-filter' />
                 <Card.Body className='d-flex flex-column justify-content-between'>
                   <Card.Title className='text-center pe-none'>{portfolio.id}. {portfolio.title}</Card.Title>
