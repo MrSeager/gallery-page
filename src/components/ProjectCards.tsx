@@ -10,6 +10,9 @@ import { FaGithub, FaExternalLinkAlt, FaReact, FaBootstrap } from 'react-icons/f
 import { PiFileHtmlDuotone, PiFileCssDuotone, PiDesktopTower, PiDeviceMobileThin } from "react-icons/pi";
 import { RiJavascriptFill } from "react-icons/ri";
 import { SiTypescript } from "react-icons/si";
+//Animation
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 type ProjectCardsProps = {
   currTheme: string;
@@ -64,6 +67,11 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) 
                 return null;
         }
     };
+
+    AOS.init({
+      debounceDelay: 50,
+      throttleDelay: 99,
+    });
 
     return (
         <Container fluid className='px-lg-5'>

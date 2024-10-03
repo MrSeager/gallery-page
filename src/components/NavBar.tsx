@@ -5,8 +5,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { Container, Nav, Button, ButtonGroup } from 'react-bootstrap';
 //Animation
 import { useAutoAnimate } from '@formkit/auto-animate/react';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 //Icons
 import {FaGripLines} from 'react-icons/fa';
 
@@ -25,8 +23,6 @@ const NavBar: React.FC<NavBarProps> = ({ currTheme, stopAnim, setCurrTheme, setS
     const handleBtnGroup = () => {
         setShowBtnGroup(!showBtnGroup);
     };
-
-    AOS.init();
 
     return (
         <Container fluid className='p-0 shadow' ref={parent}>

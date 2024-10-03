@@ -17,7 +17,9 @@ const MainPage = () => {
     const [selectedTechnology, setSelectedTechnology] = useState('');
     const [stopAnim, setStopAnim] = useState('fade-down');
     
-    AOS.init();
+    AOS.init({
+      throttleDelay: 99,
+    });
     
     const handleThemeChange = (themeNumber) => {
       setCurrTheme(themeNumber);
