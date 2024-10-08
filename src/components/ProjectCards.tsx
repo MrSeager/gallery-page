@@ -17,6 +17,7 @@ import 'aos/dist/aos.css';
 type ProjectCardsProps = {
   currTheme: string;
   selectedTechnology: string;
+  sortOrder: string;
 }
 
 interface PortfolioItemType {
@@ -29,7 +30,7 @@ interface PortfolioItemType {
   link: string;
 }
 
-const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) => {
+const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology, sortOrder }) => {
     const [portfolio, setPortfolio] = useState<PortfolioItemType[]>([]);
 
     useEffect(() => {
@@ -68,6 +69,14 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) 
         }
     };
 
+    const sortedPortfolio = [...portfolio].sort((a, b) => {
+      if (sortOrder === 'new') {
+        return b.id - a.id;
+      } else {
+        return a.id - b.id;
+      }
+    });
+
     AOS.init({
       debounceDelay: 50,
       throttleDelay: 99,
@@ -76,7 +85,7 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology }) 
     return (
         <Container fluid className='px-lg-5'>
           <Row className='mx-lg-5'>
-          {portfolio
+          {sortedPortfolio
             .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
             .map((portfolio, index) => (
             <Col data-aos='fade-up' lg={4} md={6} sm={12} className='p-3'>

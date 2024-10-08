@@ -16,6 +16,8 @@ const MainPage = () => {
     const [currTheme, setCurrTheme] = useState(isNaN(localStorage.getItem('currTheme')) || 1);
     const [selectedTechnology, setSelectedTechnology] = useState('');
     const [stopAnim, setStopAnim] = useState('fade-down');
+
+    const [sortOrder, setSortOrder] = useState('old');
     
     AOS.init({
       throttleDelay: 99,
@@ -33,9 +35,13 @@ const MainPage = () => {
         setCurrTheme(Number(savedTheme));
       }
     }, []);
-  
+
+    const handleSortChange = (order) => {
+      setSortOrder(order);
+    };
+
     return(
-      <Container fluid className='bg-white p-0'>
+      <Container fluid className='bg-white p-0 overflow-hidden'>
         <NavBar 
             currTheme={currTheme} 
             stopAnim={stopAnim} 
@@ -45,10 +51,12 @@ const MainPage = () => {
         <DropDownComp 
             currTheme={currTheme} 
             setSelectedTechnology={setSelectedTechnology} 
-            selectedTechnology={selectedTechnology} />
+            selectedTechnology={selectedTechnology}
+            handleSortChange={handleSortChange} />
         <ProjectCards 
             currTheme={currTheme} 
-            selectedTechnology={selectedTechnology} />
+            selectedTechnology={selectedTechnology}
+            sortOrder={sortOrder} />
         <FooterComp 
             currTheme={currTheme} />
       </Container>
