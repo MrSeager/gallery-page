@@ -794,6 +794,25 @@
       ],
       "link": "https://mrseager.github.io/fylo-dark-page/",
       "repasitory": "https://github.com/MrSeager/fylo-dark-page"
+    },
+    {
+      "id": 44,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/044.jpg",
+      "title": "Fylo dark theme landing page",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/sm-dashboard/",
+      "repasitory": "https://github.com/MrSeager/sm-dashboard"
     }
   ]
 }
