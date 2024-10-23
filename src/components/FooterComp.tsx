@@ -16,7 +16,7 @@ type FooterCompProps = {
 const FooterComp: FC<FooterCompProps> = ({ currTheme }) => {
     return (
         <Container fluid className={`mt-5 cs-bg-el-${currTheme} shadow-sm p-4 d-flex flex-column flex-sm-row justify-content-end`}>
-            <Button variant="custom" className={`m-2 cs-btn-${currTheme}`} href='https://www.linkedin.com/in/sergiy-but-623426159/' target='_blank'>
+            <Button variant="custom" className={`m-2 cs-btn-${currTheme}`} href='https://www.linkedin.com/in/sergiy-b-623426159/' target='_blank'>
                 <FaLinkedin size="1.5em" /> Linkedin
             </Button>
             <Button variant="custom" className={`m-2 cs-btn-${currTheme}`} href='https://github.com/MrSeager' target='_blank'>
