@@ -798,7 +798,7 @@
     {
       "id": 44,
       "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/044.jpg",
-      "title": "Fylo dark theme landing page",
+      "title": "Social media dashboard with theme switcher",
       "technology": 
       [
         "react",
