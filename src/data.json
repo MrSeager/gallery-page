@@ -832,6 +832,25 @@
       ],
       "link": "https://mrseager.github.io/fylo-page/",
       "repasitory": "https://github.com/MrSeager/fylo-page"
+    },
+    {
+      "id": 46,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/046.jpg",
+      "title": "Results summary component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/results-summary/",
+      "repasitory": "https://github.com/MrSeager/results-summary"
     }
   ]
 }
