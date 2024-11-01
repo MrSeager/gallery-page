@@ -41,7 +41,7 @@ const MainPage = () => {
     };
 
     return(
-      <Container fluid className='bg-white p-0 overflow-hidden'>
+      <Container fluid className='bg-white p-0 overflow-hidden min-vh-100 d-flex flex-column justify-content-between'>
         <NavBar 
             currTheme={currTheme} 
             stopAnim={stopAnim} 

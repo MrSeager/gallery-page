@@ -9,7 +9,7 @@ import axios from 'axios';
 import { FaGithub, FaExternalLinkAlt, FaReact, FaBootstrap } from 'react-icons/fa';
 import { PiFileHtmlDuotone, PiFileCssDuotone, PiDesktopTower, PiDeviceMobileThin } from "react-icons/pi";
 import { RiJavascriptFill } from "react-icons/ri";
-import { SiTypescript } from "react-icons/si";
+import { SiTypescript, SiSpringCreators } from "react-icons/si";
 //Animation
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -42,17 +42,19 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology, so
     const handleBadgeTechIcon = (tech) => {
         switch (tech) {
             case "html":
-                return <PiFileHtmlDuotone className='w-100 h-100' />;
+              return <PiFileHtmlDuotone className='w-100 h-100' />;
             case "css":
-                return <PiFileCssDuotone className='w-100 h-100' />;
+              return <PiFileCssDuotone className='w-100 h-100' />;
             case "react":
-                return <FaReact className='w-100 h-100' />;
+              return <FaReact className='w-100 h-100' />;
             case "bootstrap":
-                return <FaBootstrap className='w-100 h-100' />;
+              return <FaBootstrap className='w-100 h-100' />;
             case "javascript":
-                return <RiJavascriptFill className='w-100 h-100' />;
+              return <RiJavascriptFill className='w-100 h-100' />;
             case "typescript":
-                return <SiTypescript className='w-100 h-100' />;
+              return <SiTypescript className='w-100 h-100' />;
+            case "reactspring":
+              return <SiSpringCreators className='w-100 h-100' />
             default:
                 return null; // Handle other cases or return a default icon
         }

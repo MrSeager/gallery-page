@@ -40,6 +40,7 @@ const DropDownComp: FC<DropDownCompProps> = ({ currTheme, setSelectedTechnology,
                 <Dropdown.Item onClick={(e) => setSelectedTechnology('react')} className={`border-0 cs-btn-${currTheme}`}>React</Dropdown.Item>
                 <Dropdown.Item onClick={(e) => setSelectedTechnology('bootstrap')} className={`border-0 cs-btn-${currTheme}`}>Bootstrap</Dropdown.Item>
                 <Dropdown.Item onClick={(e) => setSelectedTechnology('typescript')} className={`border-0 cs-btn-${currTheme}`}>TypeScript</Dropdown.Item>
+                <Dropdown.Item onClick={(e) => setSelectedTechnology('reactspring')} className={`border-0 cs-btn-${currTheme}`}>ReactSpring</Dropdown.Item>
             </Dropdown.Menu>
         </Dropdown>
     </Container>

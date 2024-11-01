@@ -851,6 +851,26 @@
       ],
       "link": "https://mrseager.github.io/results-summary/",
       "repasitory": "https://github.com/MrSeager/results-summary"
+    },
+    {
+      "id": 47,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/047.jpg",
+      "title": "Coding bootcamp testimonials slider",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/bootcamp-testimonials/",
+      "repasitory": "https://github.com/MrSeager/bootcamp-testimonials"
     }
   ]
 }
