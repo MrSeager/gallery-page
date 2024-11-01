@@ -86,6 +86,7 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology, so
 
     return (
         <Container fluid className='px-lg-5'>
+        {portfolio.length > 0 ? (
           <Row className='mx-lg-5'>
           {sortedPortfolio
             .filter((portfolio) => selectedTechnology === '' || portfolio.technology.includes(selectedTechnology))
@@ -130,6 +131,7 @@ const ProjectCards: FC<ProjectCardsProps> = ({ currTheme, selectedTechnology, so
             </Col>
           ))}
         </Row>
+      ) : (<p>Loading...</p>)}
       </Container>
     );
 }
