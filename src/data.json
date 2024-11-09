@@ -891,6 +891,26 @@
       ],
       "link": "https://mrseager.github.io/advice-generator/",
       "repasitory": "https://github.com/MrSeager/advice-generator"
+    },
+    {
+      "id": 49,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/048.jpg",
+      "title": "Pricing component with toggle",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/pricing-component/",
+      "repasitory": "https://github.com/MrSeager/pricing-component"
     }
   ]
 }
