@@ -911,6 +911,26 @@
       ],
       "link": "https://mrseager.github.io/pricing-component/",
       "repasitory": "https://github.com/MrSeager/pricing-component"
+    },
+    {
+      "id": 50,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/050.jpg",
+      "title": "Fylo data storage component",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/fylo-data-storage/",
+      "repasitory": "https://github.com/MrSeager/fylo-data-storage"
     }
   ]
 }
