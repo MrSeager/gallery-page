@@ -951,6 +951,26 @@
       ],
       "link": "https://mrseager.github.io/crowdfunding-page/",
       "repasitory": "https://github.com/MrSeager/crowdfunding-page"
+    },
+    {
+      "id": 52,
+      "image": "https://raw.githubusercontent.com/MrSeager/gallery-page/main/src/images/052.jpg",
+      "title": "Job listings with filtering",
+      "technology": 
+      [
+        "react",
+        "bootstrap",
+        "css",
+        "typescript",
+        "reactspring"
+      ],
+      "version": 
+      [
+        "desktop",
+        "mobile"
+      ],
+      "link": "https://mrseager.github.io/job-listings/",
+      "repasitory": "https://github.com/MrSeager/job-listings"
     }
   ]
 }
